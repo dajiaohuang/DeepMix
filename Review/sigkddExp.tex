@@ -1,0 +1,57 @@
+\documentclass{sigkddExp}
+
+\begin{document}
+\title{Review of Integrating Language Models and Graph Data}
+\maketitle
+
+\section{Talk like a Graph}
+\vspace{3mm}
+ Talk like a Graph: Encoding Graphs for Large Language Models (ICLR'24): 
+This work presents an extensive study on prompting techniques for using large language models (LLMs) with graph-structured data. It provides insights and best practices for encoding graphs as text, enabling LLMs to reason over graph data. Additionally, it introduces a new graph benchmark called GraphQA to facilitate research on the effects of graph structure on LLM prompting.
+
+\section{NLGraph}
+\vspace{3mm}
+Can Language Models Solve Graph Problems in Natural Language? (NeurIPS'23): 
+The authors curate and propose the Natural Language Graph (NLGraph) benchmark to evaluate the capability of language models in reasoning with graphs and structures. The benchmark consists of synthetically generated graph problems with varying levels of difficulty across eight graph-based reasoning tasks.
+
+\section{StructGPT}
+\vspace{3mm}
+StructGPT: A General Framework for Large Language Model to Reason over Structured Data (EMNLP'23): 
+This paper introduces StructGPT, an Iterative Reading-then-Reasoning (IRR) framework that enables large language models (LLMs) to solve question answering tasks based on structured data. The framework constructs specialized interfaces to collect relevant evidence from structured data and allows LLMs to concentrate on reasoning based on the collected information.
+
+\section{Graph of Thoughts}
+\vspace{3mm}
+Graph of Thoughts: Solving Elaborate Problems with Large Language Models (AAAI'24): 
+The authors propose the Graph of Thoughts (GoT) framework, which models the outputs of large language models (LLMs) as an arbitrary graph. This approach allows for combining LLM thoughts into synergistic outcomes, distilling the essence of thought networks, and enhancing thoughts using feedback loops, thereby advancing prompting capabilities beyond existing paradigms like Chain-of-Thought or Tree of Thoughts.
+
+\section{One for All}
+\vspace{3mm}
+One for All: Towards Training One Graph Model for All Classification Tasks (ICLR'24): 
+This work introduces One for All (OFA), a general framework that can use a single graph model to address various classification tasks on graphs. OFA proposes text-attributed graphs to unify different graph data, introduces the concept of nodes-of-interest to standardize different tasks, and develops a novel graph prompting paradigm for in-context learning.
+
+\section{GraphAdapter}
+\vspace{3mm}
+GraphAdapter: Tuning Vision-Language Models With Dual Knowledge Graph (NeurIPS'23): 
+The authors propose GraphAdapter, an adapter-style efficient transfer learning strategy for tuning vision-language models (VLMs). It utilizes a dual knowledge graph, comprising a textual knowledge sub-graph and a visual knowledge sub-graph, to model the correlation of different semantics/classes in textual and visual modalities, leading to more effective classifiers for downstream tasks.
+
+\section{Explanations as Features}
+\vspace{3mm}
+Explanations as Features: LLM-Based Features for Text-Attributed Graphs (ICLR'24): 
+This work focuses on leveraging large language models (LLMs) to capture textual information as features for graph neural networks (GNNs) on text-attributed graphs. The authors use LLM explanations for zero-shot classification as informative features, demonstrating state-of-the-art results and significant speed improvements on various datasets.
+
+\section{LLM-GNN}
+\vspace{3mm}
+Label-free Node Classification on Graphs with Large Language Models (ICLR'24): 
+The authors introduce LLM-GNN, a pipeline that combines the strengths of large language models (LLMs) and graph neural networks (GNNs) for label-free node classification on graphs. LLMs are leveraged to annotate a small portion of nodes, and GNNs are trained on these annotations to predict the remaining nodes, with advanced node selection techniques to enhance GNN performance with less cost.
+
+\section{GNN adapter}
+\vspace{3mm}
+Can GNN be Good Adapter for LLMs? (WWW'24): 
+This paper explores using graph neural networks (GNNs) as efficient adapters in collaboration with large language models (LLMs) for modeling text-attributed graphs (TAGs). The proposed GraphAdapter framework introduces a GNN adapter with low computational costs and leverages LLMs' zero-shot inference capabilities for various downstream tasks on TAGs.
+
+\section{Dynamic Document-Based Knowledge Graphs}
+\vspace{3mm}
+Enhanced Story Comprehension for Large Language Models through Dynamic Document-Based Knowledge Graphs (AAAI'22): 
+The authors introduce an architecture that augments story processing with dynamic knowledge graphs, reflecting facts extracted from the story being processed. These knowledge graphs are used to create information-rich prompts, facilitating better story comprehension in large language models than prompts composed only of story text, mitigating the limitations of finite context windows.
+
+\end{document}
